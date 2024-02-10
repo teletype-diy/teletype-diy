@@ -1,6 +1,11 @@
-##### Atom and all repositories under Atom will be archived on December 15, 2022. Learn more in our [official announcement](https://github.blog/2022-06-08-sunsetting-atom/)
- # Teletype for Atom
+ # Teletype DIY for Pulsar
 
+You might remember the teletype package for Atom.
+This is a self-hosted version of it, for Pulsar.
+
+It is currently working, but I have still to figure out how publish it.
+
+<!--
 An Atom package that lets developers share their workspace with team members and collaborate on code in real time.
 
 Learn more at [teletype.atom.io](https://teletype.atom.io).
@@ -59,3 +64,4 @@ To run teletype tests locally, you'll first need to have:
     ```
     atom --test test
     ```
+-->
