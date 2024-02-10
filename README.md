@@ -3,7 +3,7 @@
 You might remember the teletype package for Atom.
 This is a self-hosted version of it, for Pulsar.
 
-It is currently working, but I have still to figure out how publish it.
+It is currently working, but I have still to figure out how to publish it.
 
 <!--
 An Atom package that lets developers share their workspace with team members and collaborate on code in real time.
