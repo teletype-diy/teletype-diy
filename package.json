@@ -18,14 +18,14 @@
   "license": "MIT",
   "atomTestRunner": "./test/setup",
   "devDependencies": {
-    "@atom/teletype-server": "^0.18.2",
+    "@dfhq/teletype-server": "^0.18.2",
     "atom-mocha-test-runner": "^1.0.1",
     "deep-equal": "^1.0.1",
     "standard": "^10.0.3",
     "temp": "^0.8.3"
   },
   "dependencies": {
-    "@atom/teletype-client": "^0.38.4",
+    "@dfhq/teletype-client": "file:../teletype-client",
     "etch": "^0.12.6"
   },
   "providedServices": {
@@ -68,7 +68,7 @@
           "title": "API server base URL",
           "description": "This should only be changed for development purposes. Changes take effect on the next package activation.",
           "type": "string",
-          "default": "https://api.teletype.atom.io",
+          "default": "http://localhost:3000",
           "order": 1
         },
         "pusherKey": {
