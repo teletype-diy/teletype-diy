@@ -1,5 +1,5 @@
 {
-  "name": "teletype",
+  "name": "teletype-diy",
   "version": "0.13.4",
   "description": "Share your workspace with team members and collaborate on code in real time",
   "keywords": [
@@ -18,14 +18,14 @@
   "license": "MIT",
   "atomTestRunner": "./test/setup",
   "devDependencies": {
-    "@dfhq/teletype-server": "^0.18.2",
+    "@teletype-diy/teletype-diy-server": "teletype-diy/teletype-diy-server",
     "atom-mocha-test-runner": "^1.0.1",
     "deep-equal": "^1.0.1",
     "standard": "^10.0.3",
     "temp": "^0.8.3"
   },
   "dependencies": {
-    "@dfhq/teletype-client": "file:../teletype-client",
+    "@teletype-diy/teletype-diy-client": "teletype-diy/teletype-diy-client",
     "etch": "^0.12.6"
   },
   "providedServices": {
