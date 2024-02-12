@@ -9,7 +9,7 @@
     "real-time"
   ],
   "main": "index.js",
-  "repository": "https://github.com/atom/teletype",
+  "repository": "https://github.com/teletype-diy/teletype-diy",
   "scripts": {
     "lint": "standard --verbose",
     "test": "atom --test test"
@@ -18,14 +18,14 @@
   "license": "MIT",
   "atomTestRunner": "./test/setup",
   "devDependencies": {
-    "@teletype-diy/teletype-diy-server": "teletype-diy/teletype-diy-server",
+    "@teletype-diy/teletype-diy-server": "teletype-diy/teletype-diy-server#dev",
     "atom-mocha-test-runner": "^1.0.1",
     "deep-equal": "^1.0.1",
     "standard": "^10.0.3",
     "temp": "^0.8.3"
   },
   "dependencies": {
-    "@teletype-diy/teletype-diy-client": "teletype-diy/teletype-diy-client",
+    "@teletype-diy/teletype-diy-client": "teletype-diy/teletype-diy-client#dev",
     "etch": "^0.12.6"
   },
   "providedServices": {
