@@ -58,32 +58,32 @@
       "default": true,
       "order": 1
     },
+    "doPeer2PeerNoSignalServer": {
+      "title": "Direct P2P Connection",
+      "description": "Try to do a direct connection without signal server, you will need to mimic the signal server yourself. Don't worry, it's easy(-ish). 😉",
+      "type": "boolean",
+      "default": "false",
+      "order": 2
+    },
     "configSettings": {
       "title": "Settings",
       "collapsed": false,
       "type": "object",
-      "order": 2,
+      "order": 3,
       "properties": {
-        "baseURL": {
-          "title": "API server base URL",
-          "description": "You need to change this. Changes take effect on the next package activation.",
-          "type": "string",
-          "default": "http://localhost:3000",
-          "order": 1
-        },
         "signalURL": {
           "title": "Websocket signal server URL",
           "description": "You need to change this. Changes take effect on the next package activation.",
           "type": "string",
           "default": "http://127.0.0.1:3456",
-          "order": 2
+          "order": 1
         },
-        "pusherCluster": {
-          "title": "Pusher cluster name",
-          "description": "You need to change this. Changes take effect on the next package activation.",
+        "iceServerURL": {
+          "title": "ICE Server URL",
+          "description": "You may need it. Depends on your setup. Changes take effect on the next package activation.",
           "type": "string",
-          "default": "mt1",
-          "order": 3
+          "default": "",
+          "order": 2
         }
       }
     }
