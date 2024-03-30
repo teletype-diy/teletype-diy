@@ -8,9 +8,5 @@ module.exports = new TeletypePackage({
   tooltipManager: atom.tooltips,
   clipboard: atom.clipboard,
   signalURL: atom.config.get('teletype-diy.configSettings.signalURL'),
-  pusherOptions: {
-    cluster: atom.config.get('teletype-diy.configSettings.pusherCluster'),
-    disableStats: true
-  },
   getAtomVersion: atom.getVersion.bind(atom)
 })
