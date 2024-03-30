@@ -18,7 +18,6 @@
   "license": "MIT",
   "atomTestRunner": "./test/setup",
   "devDependencies": {
-    "@teletype-diy/teletype-diy-server": "teletype-diy/teletype-diy-server#dev",
     "atom-mocha-test-runner": "^1.0.1",
     "deep-equal": "^1.0.1",
     "standard": "^10.0.3",
