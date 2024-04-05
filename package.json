@@ -1,11 +1,13 @@
 {
   "name": "teletype-diy",
   "version": "0.13.4",
-  "description": "Share your workspace with team members and collaborate on code in real time",
+  "description": "Share your workspace with team members and collaborate on code in real time - DIY edition",
   "keywords": [
     "collaboration",
     "collaborative-editing",
     "pair-programming",
+    "self-hosted",
+    "community",
     "real-time"
   ],
   "main": "index.js",

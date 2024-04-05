@@ -1,9 +1,32 @@
- # Teletype DIY for Pulsar
+### ⚠ This is beta software, expect problems. ⚠
+
+The code will probably change and stuff will break.
+
+# Teletype DIY for Pulsar
 
 You might remember the teletype package for Atom.
 This is a self-hosted version of it, for Pulsar.
 
-It is currently working, but I have still to figure out how to publish it.
+## Never heard of Teletype. What is it?
+
+An Pulsar package that lets developers share their workspace with team members and collaborate on code in real time.
+
+## How is this different from the original Teletype?
+
+The original teletype was backed by Github and as such could host a central signaling-server.
+To use this package, you will either need to host a [signaling-server yourself](https://github.com/teletype-diy/signal-server) or you will need to do the signaling yourself.
+Depending on your network, you may need a ICE/TURN/STUN server (e.g. [coturn](https://github.com/coturn/coturn)).
+<!-- If you only have access to a IPv4 address behind a NAT, you will very probably also need a ICE/TURN/STUN server. -->
+
+
+### How to do manual signal exchange
+
+1. Enable 'direct p2p' in settings
+1. Connect like normal
+1. Follow instructions in signal-pane: copy signal to peers.
+
+
+
 
 <!--
 An Atom package that lets developers share their workspace with team members and collaborate on code in real time.
