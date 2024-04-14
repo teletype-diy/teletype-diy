@@ -8,5 +8,6 @@ module.exports = new TeletypePackage({
   tooltipManager: atom.tooltips,
   clipboard: atom.clipboard,
   signalURL: atom.config.get('teletype-diy.configSettings.signalURL'),
+  peerConnectionTimeout: atom.config.get('teletype-diy.configSettings.timeout'),
   getAtomVersion: atom.getVersion.bind(atom)
 })

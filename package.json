@@ -1,6 +1,6 @@
 {
   "name": "teletype-diy",
-  "version": "0.14.1",
+  "version": "0.14.2",
   "description": "Share your workspace with team members and collaborate on code in real time - DIY edition",
   "keywords": [
     "collaboration",
@@ -85,6 +85,13 @@
           "type": "string",
           "default": "",
           "order": 2
+        },
+        "timeout": {
+          "title": "Connection Timeout",
+          "description": "Timeout in Milliseconds. Try to increase if your connection fails with timeout. Changes take effect on the next package activation.",
+          "type": "integer",
+          "default": "30000",
+          "order": 3
         }
       }
     }
