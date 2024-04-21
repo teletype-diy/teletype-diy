@@ -18,8 +18,14 @@ To use this package, you will either need to host a [signaling-server yourself](
 Depending on your network, you may need a ICE/TURN/STUN server (e.g. [coturn](https://github.com/coturn/coturn)).
 <!-- If you only have access to a IPv4 address behind a NAT, you will very probably also need a ICE/TURN/STUN server. -->
 
+## FAQ
 
-### How to do manual signal exchange
+### What will get shared?
+
+Teletype-DIY will only share the buffers/files that are currently open in your editor instance.
+Packages that use the Teletype-DIY API might extend this, such as [teletype-tree-view](https://github.com/teletype-diy/teletype-tree-view).
+
+### How to do the manual signal exchange
 
 1. Enable 'direct p2p' in settings
 1. Connect like normal
